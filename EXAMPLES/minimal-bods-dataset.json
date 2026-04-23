@@ -1,5 +1,100 @@
-{
-  "statementID": "example-1",
-  "statementType": "entityStatement",
-  "name": "Example Company Ltd"
-}
+[
+  {
+    "statementId": "openownership-register-entity-001",
+    "statementDate": "2024-01-15",
+    "recordId": "acme-holdings-ltd-record",
+    "recordStatus": "new",
+    "recordDetails": {
+      "entityType": {
+        "type": "registeredEntity"
+      },
+      "name": "Acme Holdings Ltd",
+      "incorporatedInJurisdiction": {
+        "name": "United Kingdom",
+        "code": "GB"
+      },
+      "identifiers": [
+        {
+          "id": "12345678",
+          "scheme": "GB-COH",
+          "schemeName": "Companies House"
+        }
+      ],
+      "foundingDate": "2010-03-01",
+      "addresses": [
+        {
+          "type": "registered",
+          "address": "123 High Street, London, EC1A 1BB",
+          "postCode": "EC1A 1BB",
+          "country": "GB"
+        }
+      ]
+    },
+    "source": {
+      "type": "officialRegister",
+      "description": "UK Companies House PSC register",
+      "url": "https://find-and-update.company-information.service.gov.uk/",
+      "retrievedAt": "2024-01-15T10:30:00Z"
+    }
+  },
+  {
+    "statementId": "openownership-register-person-001",
+    "statementDate": "2024-01-15",
+    "recordId": "jane-smith-record",
+    "recordStatus": "new",
+    "recordDetails": {
+      "personType": "knownPerson",
+      "names": [
+        {
+          "type": "individual",
+          "fullName": "Jane Smith"
+        }
+      ],
+      "nationalities": [
+        { "code": "GB", "name": "British" }
+      ],
+      "birthDate": "1975-08-22"
+    },
+    "source": {
+      "type": "officialRegister",
+      "description": "UK Companies House PSC register",
+      "url": "https://find-and-update.company-information.service.gov.uk/",
+      "retrievedAt": "2024-01-15T10:30:00Z"
+    }
+  },
+  {
+    "statementId": "openownership-register-relationship-001",
+    "statementDate": "2024-01-15",
+    "recordId": "acme-smith-ownership-record",
+    "recordStatus": "new",
+    "recordDetails": {
+      "subject": {
+        "describedByEntityStatement": "openownership-register-entity-001"
+      },
+      "interestedParty": {
+        "describedByPersonStatement": "openownership-register-person-001"
+      },
+      "interests": [
+        {
+          "type": "shareholding",
+          "directOrIndirect": "direct",
+          "beneficialOwnershipOrControl": true,
+          "share": { "exact": 75.0 },
+          "startDate": "2019-06-01"
+        },
+        {
+          "type": "votingRights",
+          "directOrIndirect": "direct",
+          "beneficialOwnershipOrControl": true,
+          "share": { "exact": 75.0 }
+        }
+      ]
+    },
+    "source": {
+      "type": "officialRegister",
+      "description": "UK Companies House PSC register",
+      "url": "https://find-and-update.company-information.service.gov.uk/",
+      "retrievedAt": "2024-01-15T10:30:00Z"
+    }
+  }
+]
