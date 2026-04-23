@@ -82,11 +82,11 @@ BODS acts as an **interoperability layer** between beneficial ownership data and
 - **GQL / BigQuery** — [github.com/StephenAbbott/bods-gql](https://github.com/StephenAbbott/bods-gql) — convert BODS v0.4 data for querying with GQL (ISO/IEC 39075) on BigQuery
 - **BODS XML** — [github.com/StephenAbbott/bods-xml](https://github.com/StephenAbbott/bods-xml) — convert BODS v0.4 JSON to XML
 - **BODS Lance** — [github.com/StephenAbbott/bods-lance](https://github.com/StephenAbbott/bods-lance) — convert BODS v0.4 data to the Lance columnar format
-- **BODS ↔ AML AI** — [github.com/StephenAbbott/bods-aml-ai](https://github.com/StephenAbbott/bods-aml-ai) — transform BODS v0.4 data into Google Anti Money Laundering AI input format
-- **BODS ↔ ICIJ Offshore Leaks** — [github.com/StephenAbbott/bods-icij-offshoreleaks](https://github.com/StephenAbbott/bods-icij-offshoreleaks) — transform ICIJ Offshore Leaks Database records into BODS v0.4, with Neo4j export support
-- **BODS ↔ OpenCorporates** — [github.com/StephenAbbott/bods-opencorporates](https://github.com/StephenAbbott/bods-opencorporates) — transform OpenCorporates relationship data into BODS v0.4
-- **BODS ↔ BrightQuery** — [github.com/StephenAbbott/bods-brightquery](https://github.com/StephenAbbott/bods-brightquery) — transform BrightQuery's corporate ownership data from opendata.org into BODS v0.4
-- **BODS ↔ Kyckr** — [github.com/StephenAbbott/bods-kyckr](https://github.com/StephenAbbott/bods-kyckr) — transform Kyckr relationship data into BODS v0.4
+- **BODS ➡️ Google AML AI** — [github.com/StephenAbbott/bods-aml-ai](https://github.com/StephenAbbott/bods-aml-ai) — transform BODS v0.4 data into Google Anti Money Laundering AI input format
+- **ICIJ Offshore Leaks ➡️ BODS ** — [github.com/StephenAbbott/bods-icij-offshoreleaks](https://github.com/StephenAbbott/bods-icij-offshoreleaks) — transform ICIJ Offshore Leaks Database records into BODS v0.4, with Neo4j export support
+- **OpenCorporates ➡️ BODS** — [github.com/StephenAbbott/bods-opencorporates](https://github.com/StephenAbbott/bods-opencorporates) — transform OpenCorporates relationship data into BODS v0.4
+- **BrightQuery ➡️ BODS** — [github.com/StephenAbbott/bods-brightquery](https://github.com/StephenAbbott/bods-brightquery) — transform BrightQuery's corporate ownership data from opendata.org into BODS v0.4
+- **Kyckr ➡️ BODS** — [github.com/StephenAbbott/bods-kyckr](https://github.com/StephenAbbott/bods-kyckr) — transform Kyckr relationship data into BODS v0.4
 
 ### External ecosystem tools
 
