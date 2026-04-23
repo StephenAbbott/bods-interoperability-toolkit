@@ -39,17 +39,17 @@ Not sure which tool fits? See the [tool decision tree](DECISION-TREES/choose-you
 ## 🏗 Architecture overview
 
 ```
-                         [ BODS JSON ]
-                              │
-                              ▼
-                        [ Validation ]
-                              │
-        ┌─────────────────┬───┴───┬─────────────────┐
-        ▼                 ▼       ▼                 ▼
-      Neo4j        FollowTheMoney  GQL        Linked Data (RDF)
-        │                 │       │                 │
-        ▼                 ▼       ▼                 ▼
-  Graph queries   Sanctions data BigQuery   Knowledge graphs
+                                  [ BODS JSON ]
+                                        │
+                                        ▼
+                                  [ Validation ]
+                                        │
+         ┌──────────────────┬───────────┴──────────┬──────────────────┐
+         ▼                  ▼                      ▼                  ▼
+       Neo4j         FollowTheMoney               GQL         Linked Data (RDF)
+         │                  │                      │                  │
+         ▼                  ▼                      ▼                  ▼
+   Graph queries     Sanctions data            BigQuery        Knowledge graphs
 ```
 
 BODS acts as an **interoperability layer** between beneficial ownership data and downstream systems.
