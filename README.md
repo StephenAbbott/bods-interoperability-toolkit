@@ -20,6 +20,7 @@ What do you want to do?
 - [Convert BODS into usable formats](WORKFLOWS/convert-bods-data.md)
 - [Analyse ownership networks](WORKFLOWS/analyse-ownership-networks.md)
 - [Integrate BODS into an existing system](WORKFLOWS/integrate-with-external-systems.md)
+- [See BODS interoperability in action](https://opencheck.onrender.com/) — paste an LEI into **OpenCheck** to fan out across 7 open data sources, mapped into BODS v0.4 with deterministic AMLA / FATF risk signals.
 
 Not sure which tool fits? See the [tool decision tree](DECISION-TREES/choose-your-tool.md).
 
@@ -67,6 +68,10 @@ BODS acts as an **interoperability layer** between beneficial ownership data and
 ---
 
 ## 🔧 Tools
+
+### Demos & applications
+
+- **OpenCheck** — [github.com/StephenAbbott/opencheck](https://github.com/StephenAbbott/opencheck) · [live demo](https://opencheck.onrender.com/) — LEI-anchored customer due diligence demo: fans out across 7 open data sources into BODS v0.4 with deterministic AMLA / FATF risk signals
 
 ### Core validation & interaction
 
